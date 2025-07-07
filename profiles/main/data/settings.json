@@ -123,5 +123,6 @@
         "snippets",
         "uiState"
     ],
-    "syncSettings.keybindingsPerPlatform": true
+    "syncSettings.keybindingsPerPlatform": true,
+    "cmake.generator": "Ninja"
 }
