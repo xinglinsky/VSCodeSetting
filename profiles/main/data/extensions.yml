@@ -1,22 +1,22 @@
 builtin:
   disabled:
     - vscode.configuration-editing
+    - vscode.css-language-features
     - vscode.debug-auto-launch
     - vscode.debug-server-ready
-    - vscode.css-language-features
     - vscode.emmet
     - vscode.extension-editing
     - vscode.git
-    - vscode.github
     - vscode.git-base
+    - vscode.github
+    - vscode.html-language-features
     - vscode.grunt
     - vscode.gulp
-    - vscode.html-language-features
     - vscode.ipynb
     - vscode.jake
     - vscode.json-language-features
-    - vscode.markdown-math
     - vscode.markdown-language-features
+    - vscode.markdown-math
     - vscode.merge-conflict
     - ms-vscode.js-debug
     - ms-vscode.vscode-js-profile-table
@@ -31,8 +31,8 @@ builtin:
 disabled:
   - id: ms-python.python
     uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
-enabled:
   - id: vscodevim.vim
     uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
+enabled:
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
