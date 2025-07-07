@@ -73,7 +73,7 @@ ms-python.python: "{\"PYTHON_ENV_INFO_CACHEv2\":[{\"name\":\"base\",\"location\
   GLOBAL_STORAGE_KEYS\",\"defaultValue\":[]},{\"key\":\"SHELL_INTEGRATION_WORKI\
   NG_KEY_powershell\"},{\"key\":\"WORKSPACE_FOLDER_INTERPRETER_PATH_E:\\\\GIT-S\
   HOPEE\\\\FONT-MANAGER\"},{\"key\":\"preferredGlobalPyInterpreter\"}]}"
-workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.cmake-view","pinned":true,"visible":false,"order":12},{"id":"workbench.view.extension.makefile__viewContainer","pinned":true,"visible":false,"order":14},{"id":"workbench.view.extension.gradleContainerView","pinned":true,"visible":false,"order":15},{"id":"workbench.view.extension.gitlens","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.gitlensInspect","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.gitlensPatch","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.sshfs","pinned":true,"visible":false,"order":11},{"id":"workbench.view.extension.hexExplorer","pinned":true,"visible":false,"order":13},{"id":"workbench.panel.chatSidebar","pinned":true,"visible":false,"order":100}]'
+workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":false,"order":0},{"id":"workbench.view.search","pinned":true,"visible":false,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":false,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extensions","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.makefile__viewContainer","pinned":true,"visible":false,"order":14},{"id":"workbench.view.extension.gradleContainerView","pinned":true,"visible":false,"order":15},{"id":"workbench.view.extension.gitlens","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.gitlensInspect","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.gitlensPatch","pinned":true,"visible":false,"order":10},{"id":"workbench.view.extension.sshfs","pinned":true,"visible":false,"order":11},{"id":"workbench.view.extension.cmake-view","pinned":true,"visible":false,"order":12},{"id":"workbench.view.extension.hexExplorer","pinned":true,"visible":false,"order":13},{"id":"workbench.panel.chatSidebar","pinned":true,"visible":false,"order":100}]'
 workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"Explorer\",\"isBuilt\
   in\":true,\"views\":[{},{},{},{\"when\":\"timelineHasProvider\"},{\"when\":\"\
@@ -171,12 +171,9 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   0\"},{\"when\":\"testing.isTestCoverageOpen\"},{\"when\":\"go.hasProfiles\"}]\
   },{\"id\":\"workbench.view.extension.references-view\",\"themeIcon\":{\"id\":\
   \"references\"},\"name\":\"References\",\"isBuiltin\":false,\"views\":[{\"when\
-  \":\"reference-list.isActive\"}]},{\"id\":\"workbench.view.extension.cmake-vi\
-  ew\",\"themeIcon\":{\"id\":\"cmake-tools-cmake-view-2\"},\"name\":\"CMake\",\
-  \"isBuiltin\":false,\"views\":[{\"when\":\"cmake:enableFullFeatureSet\"},{\"w\
-  hen\":\"cmake:enableFullFeatureSet\"},{\"when\":\"cmake:enableFullFeatureSet\
-  \"}]},{\"id\":\"workbench.view.extension.makefile__viewContainer\",\"name\":\
-  \"Makefile\",\"isBuiltin\":false,\"views\":[{\"when\":\"isWorkspaceTrusted ||
+  \":\"reference-list.isActive\"}]},{\"id\":\"workbench.view.extension.makefile\
+  __viewContainer\",\"name\":\"Makefile\",\"isBuiltin\":false,\"views\":[{\"when\
+  \":\"isWorkspaceTrusted ||
   makefile:testing\"}]},{\"id\":\"workbench.view.extension.gradleContainerView\
   \",\"name\":\"Gradle\",\"isBuiltin\":false,\"views\":[{\"when\":\"gradle:acti\
   vated && !gradle:defaultView\"},{\"when\":\"gradle:activated &&
@@ -207,13 +204,16 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   !gitlens:untrusted\"}]},{\"id\":\"workbench.view.extension.sshfs\",\"name\":\
   \"SSH
   FS\",\"isBuiltin\":false,\"views\":[{},{}]},{\"id\":\"workbench.view.extensio\
-  n.hexExplorer\",\"name\":\"Hex
+  n.cmake-view\",\"themeIcon\":{\"id\":\"cmake-tools-cmake-view-2\"},\"name\":\
+  \"CMake\",\"isBuiltin\":false,\"views\":[{\"when\":\"cmake:enableFullFeatureS\
+  et\"},{\"when\":\"cmake:enableFullFeatureSet\"},{\"when\":\"cmake:enableFullF\
+  eatureSet\"}]},{\"id\":\"workbench.view.extension.hexExplorer\",\"name\":\"Hex
   Editor\",\"isBuiltin\":false,\"views\":[{\"when\":\"hexEditor:showSidebarInsp\
   ector\"}]},{\"id\":\"workbench.panel.chatSidebar\",\"name\":\"Chat\",\"isBuil\
   tin\":false}]"
-workbench.activityBar.location: default
+workbench.activityBar.location: top
 workbench.auxiliaryBar.size: "340"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["gradle",true],["java",true],["ignore",true],["markdown",true],["c",true],["lldb.disassembly",true],["json",true],["jsonc",true],["yaml",true],["plaintext",true],["cmake",true],["cpp",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["java",true],["ignore",true],["markdown",true],["c",true],["lldb.disassembly",true],["json",true],["jsonc",true],["yaml",true],["plaintext",true],["cmake",true],["cpp",true],["log",true]]'
 workbench.explorer.downloadPath: c:\Users\yuanlong.hu\Downloads
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":false},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"mavenProjects","isHidden":false},{"id":"javaProjectExplorer","isHidden":false},{"id":"cmake.projectStatus","isHidden":false},{"id":"cmake.outline","isHidden":false},{"id":"cmake.pinnedCommands","isHidden":false},{"id":"clangd.typeHierarchyView","isHidden":false},{"id":"clangd.memoryUsage","isHidden":false},{"id":"clangd.ast","isHidden":false},{"id":"go.explorer","isHidden":false},{"id":"go.package.outline","isHidden":false}]'
 workbench.grid.size: '{"height":768,"width":1024}'
@@ -234,7 +234,7 @@ workbench.panel.size: "295"
 workbench.panel.testResults.state.hidden: '[{"id":"workbench.panel.testResults.view","isHidden":false}]'
 workbench.quickInput.viewState: '{"top":0.25,"left":0.5}'
 workbench.scm.views.state.hidden: '[{"id":"workbench.scm.repositories","isHidden":true},{"id":"workbench.scm","isHidden":false},{"id":"workbench.scm.history","isHidden":false},{"id":"gitlens.views.repositories","isHidden":true},{"id":"gitlens.views.commits","isHidden":false},{"id":"gitlens.views.branches","isHidden":false},{"id":"gitlens.views.remotes","isHidden":false},{"id":"gitlens.views.stashes","isHidden":false},{"id":"gitlens.views.tags","isHidden":false},{"id":"gitlens.views.worktrees","isHidden":false},{"id":"gitlens.views.contributors","isHidden":false},{"id":"gitlens.views.scm.grouped","isHidden":false}]'
-workbench.sideBar.size: "342"
+workbench.sideBar.size: "369"
 workbench.telemetryOptOutShown: "true"
 workbench.view.debug.state.hidden: '[{"id":"workbench.debug.welcome","isHidden":false},{"id":"workbench.debug.variablesView","isHidden":false},{"id":"workbench.debug.watchExpressionsView","isHidden":false},{"id":"workbench.debug.callStackView","isHidden":false},{"id":"workbench.debug.loadedScriptsView","isHidden":false},{"id":"workbench.debug.breakPointsView","isHidden":false},{"id":"jsBrowserBreakpoints","isHidden":false},{"id":"jsExcludedCallers","isHidden":false},{"id":"jsDebugNetworkTree","isHidden":false},{"id":"lldb.loadedModules","isHidden":false},{"id":"lldb.excludedCallers","isHidden":false}]'
 workbench.view.extension.claude-dev-ActivityBar.state.hidden: '[{"id":"claude-dev.SidebarProvider","isHidden":false}]'

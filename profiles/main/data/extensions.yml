@@ -1,23 +1,23 @@
 builtin:
   disabled:
     - vscode.configuration-editing
-    - vscode.css-language-features
     - vscode.debug-auto-launch
     - vscode.debug-server-ready
-    - vscode.extension-editing
+    - vscode.css-language-features
     - vscode.emmet
-    - vscode.git-base
+    - vscode.extension-editing
     - vscode.git
     - vscode.github
-    - vscode.gulp
+    - vscode.git-base
     - vscode.grunt
+    - vscode.gulp
     - vscode.html-language-features
     - vscode.ipynb
     - vscode.jake
     - vscode.json-language-features
-    - vscode.merge-conflict
     - vscode.markdown-math
     - vscode.markdown-language-features
+    - vscode.merge-conflict
     - ms-vscode.js-debug
     - ms-vscode.vscode-js-profile-table
     - vscode.npm

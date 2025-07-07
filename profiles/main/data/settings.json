@@ -124,5 +124,6 @@
         "uiState"
     ],
     "syncSettings.keybindingsPerPlatform": true,
-    "cmake.generator": "Ninja"
+    "cmake.generator": "Ninja",
+    "workbench.activityBar.location": "top"
 }
