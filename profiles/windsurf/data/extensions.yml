@@ -1,6 +1,7 @@
 builtin:
   disabled:
     - codeium.windsurf
+    - codeium.windsurf-code-executor
     - ms-vscode.js-debug
     - ms-vscode.vscode-js-profile-table
     - vscode.configuration-editing
@@ -21,6 +22,7 @@ builtin:
     - vscode.markdown-language-features
     - vscode.markdown-math
     - vscode.merge-conflict
+    - vscode.mermaid-chat-features
     - vscode.npm
     - vscode.php-language-features
     - vscode.references-view
@@ -28,14 +30,9 @@ builtin:
     - vscode.terminal-suggest
     - vscode.tunnel-forwarding
     - vscode.typescript-language-features
-disabled: []
-enabled:
-  - id: Catppuccin.catppuccin-vsc
-    uuid: 69264e4d-cd3b-468a-8f2b-e69673c7d864
-  - id: Catppuccin.catppuccin-vsc-icons
-    uuid: 625b9abd-dfac-405b-bf34-e65f46e2f22f
+disabled:
   - id: Codeium.windsurfPyright
-    uuid: 1adb9c26-188a-4fb6-840e-b1e951ecff7c
+    uuid: 00000000-0000-0000-0000-000000000000
   - id: DavidAnson.vscode-markdownlint
     uuid: daf8b44d-8aae-4da2-80c5-1f770219f643
   - id: eamodio.gitlens
@@ -44,10 +41,6 @@ enabled:
     uuid: c86bc8a9-fd3b-44db-b28a-2d146cb78d3c
   - id: golang.go
     uuid: d6f6cfea-4b6f-41f4-b571-6ad2ab7918da
-  - id: hediet.vscode-drawio
-    uuid: ea6a6046-2132-421f-a984-664909fcf0b8
-  - id: hediet.vscode-drawio-insiders-build
-    uuid: 5c2185b3-563a-4f92-a463-5f6f7f984030
   - id: jebbs.plantuml
     uuid: d95cb424-7a5a-4e08-9698-107d6fd590cf
   - id: llvm-vs-code-extensions.vscode-clangd
@@ -60,17 +53,26 @@ enabled:
     uuid: cc7d2112-5178-4472-8e0e-25dced95e7f0
   - id: ms-vscode.powershell
     uuid: 40d39ce9-c381-47a0-80c8-a6661f731eab
-  - id: qwtel.sqlite-viewer
-    uuid: 94fef082-6c2d-43ac-9540-6617b51a3a12
   - id: shd101wyy.markdown-preview-enhanced
     uuid: 3b1db1fc-c7f7-4bd6-9fa4-b499dfa99a8a
   - id: tchayen.markdown-links
     uuid: 947b629a-e9c8-4cb8-8551-45b9088960b5
   - id: vadimcn.vscode-lldb
     uuid: bee31e34-a44b-4a76-9ec2-e9fd1439a0f6
-  - id: vscodevim.vim
-    uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
   - id: yzhang.markdown-all-in-one
     uuid: 98790d67-10fa-497c-9113-f6c7489207b2
+enabled:
+  - id: Catppuccin.catppuccin-vsc
+    uuid: 69264e4d-cd3b-468a-8f2b-e69673c7d864
+  - id: Catppuccin.catppuccin-vsc-icons
+    uuid: 625b9abd-dfac-405b-bf34-e65f46e2f22f
+  - id: hediet.vscode-drawio
+    uuid: ea6a6046-2132-421f-a984-664909fcf0b8
+  - id: hediet.vscode-drawio-insiders-build
+    uuid: 5c2185b3-563a-4f92-a463-5f6f7f984030
+  - id: qwtel.sqlite-viewer
+    uuid: 94fef082-6c2d-43ac-9540-6617b51a3a12
+  - id: vscodevim.vim
+    uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
