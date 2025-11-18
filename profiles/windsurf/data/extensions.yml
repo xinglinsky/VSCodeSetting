@@ -28,9 +28,7 @@ builtin:
     - vscode.terminal-suggest
     - vscode.tunnel-forwarding
     - vscode.typescript-language-features
-disabled:
-  - id: vscodevim.vim
-    uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
+disabled: []
 enabled:
   - id: Catppuccin.catppuccin-vsc
     uuid: 69264e4d-cd3b-468a-8f2b-e69673c7d864
@@ -52,18 +50,10 @@ enabled:
     uuid: 5c2185b3-563a-4f92-a463-5f6f7f984030
   - id: jebbs.plantuml
     uuid: d95cb424-7a5a-4e08-9698-107d6fd590cf
-  - id: Kelvin.vscode-sshfs
-    uuid: bb9fc30a-080a-40bc-a792-08cc4ed66bcd
   - id: llvm-vs-code-extensions.vscode-clangd
     uuid: 103154cb-b81d-4e1b-8281-c5f4fa563d37
   - id: mechatroner.rainbow-csv
     uuid: 3792588c-3d35-442d-91ea-fe6a755e8155
-  - id: ms-python.debugpy
-    uuid: 4bd5d2c9-9d65-401a-b0b2-7498d9f17615
-  - id: ms-python.python
-    uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
-  - id: ms-python.vscode-python-envs
-    uuid: b41d8e8a-b6d4-4202-8f07-7189bdda81be
   - id: ms-vscode.cmake-tools
     uuid: 7c889349-8749-43d4-8b5e-08939936d7f4
   - id: ms-vscode.hexeditor
@@ -72,16 +62,14 @@ enabled:
     uuid: 40d39ce9-c381-47a0-80c8-a6661f731eab
   - id: qwtel.sqlite-viewer
     uuid: 94fef082-6c2d-43ac-9540-6617b51a3a12
-  - id: redhat.java
-    uuid: 198a707e-28af-4e84-8610-6e2f628dd12d
   - id: shd101wyy.markdown-preview-enhanced
     uuid: 3b1db1fc-c7f7-4bd6-9fa4-b499dfa99a8a
   - id: tchayen.markdown-links
     uuid: 947b629a-e9c8-4cb8-8551-45b9088960b5
   - id: vadimcn.vscode-lldb
     uuid: bee31e34-a44b-4a76-9ec2-e9fd1439a0f6
-  - id: vscjava.vscode-gradle
-    uuid: a226f06e-9b5e-493b-b92a-553d3572f969
+  - id: vscodevim.vim
+    uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
   - id: yzhang.markdown-all-in-one
     uuid: 98790d67-10fa-497c-9113-f6c7489207b2
   - id: zokugun.cron-tasks
