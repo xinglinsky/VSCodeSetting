@@ -1,0 +1,7 @@
+keybindingsPerPlatform: true
+resources:
+  - extensions
+  - keybindings
+  - settings
+  - snippets
+  - uiState
