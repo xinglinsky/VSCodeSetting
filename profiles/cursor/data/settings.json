@@ -1,4 +1,7 @@
-{
+{    
+    "editor.fontLigatures": true, 
+    "editor.renderWhitespace": "none",
+    "terminal.integrated.gpuAcceleration": "on",
     "redhat.telemetry.enabled":  true,
     "files.autoSave":  "onFocusChange",
     "cmake.pinnedCommands":  [

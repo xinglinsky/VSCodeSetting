@@ -29,8 +29,6 @@ enabled:
     uuid: 5c2185b3-563a-4f92-a463-5f6f7f984030
   - id: jebbs.plantuml
     uuid: d95cb424-7a5a-4e08-9698-107d6fd590cf
-  - id: Kelvin.vscode-sshfs
-    uuid: bb9fc30a-080a-40bc-a792-08cc4ed66bcd
   - id: llvm-vs-code-extensions.vscode-clangd
     uuid: 103154cb-b81d-4e1b-8281-c5f4fa563d37
   - id: mechatroner.rainbow-csv
